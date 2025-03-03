@@ -398,7 +398,39 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+/* Certifications */
 
+#certification {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.cert-info-upper-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 10rem;
+  padding: 0.5rem;
+}
+
+
+.certification-img {
+  border-radius: 2rem;
+  width: 40%;
+  height: 20%;
+}
 
 /* CONTACT */
 
